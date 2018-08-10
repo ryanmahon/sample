@@ -1,0 +1,29 @@
+{
+  "name": "log_api_service",
+  "version": "1.0.0",
+  "description": "Logging Service for Mobile Apps",
+  "main": ".app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "debug": "nodemon ./app.js"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "author": "Ryan Mahon",
+  "license": "UNLICENSED",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.291.0",
+    "body-parser": "^1.18.3",
+    "express": "4.16.3",
+    "firehoser": "^1.3.5",
+    "kinesis-streams": "^0.10.0",
+    "promise": "8.0.1",
+    "request": "2.87.0",
+    "winston": "2.4.3"
+  }
+}
